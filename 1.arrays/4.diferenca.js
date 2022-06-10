@@ -3,3 +3,11 @@
    Depois disso, crie um terceiro array que ira receber a junção desses dois arrays porém sem elementos repetidos.
    Ex: primeiro = [1, 2, 3, 4] segundo = [2, 3, 4, 5, 6, 7], terceiro precisa ser [1, 2, 3, 4, 5, 6, 7]
 */
+
+var frutas = ['Manga','Laranja', 'Pera' ]
+var cores = ['Laranja', 'Azul', 'Verde', ]
+var noRepeat = new Set (frutas.concat(cores))
+
+
+
+console.log(noRepeat)
