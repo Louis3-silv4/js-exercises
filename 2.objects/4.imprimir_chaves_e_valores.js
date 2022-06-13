@@ -3,3 +3,13 @@
    cada propriedade utilizando uma estrutura de repetição.
 */
 
+var pessoa = {
+   nome: 'Louise',
+   idade: 18,
+   peso: 55 ,
+   altura: 1.63,
+   cidade: 'Nilopolis'
+}
+for (const property in pessoa) {
+   console.log(`${property}: ${pessoa[property]}`);
+ }
