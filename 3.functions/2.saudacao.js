@@ -4,3 +4,15 @@ Você pode assumir que o objeto recebido como parametro possui as chaves nome, s
 Chame essa função e atribua o resultado da execução dela numa variável e, por fim, imprima essa variável.
 */
 
+var pessoa = {
+    nome:'Louise',
+    sobrenome:'Alves',
+    idade: 18
+}
+
+function dadosCompletos(pessoa) {
+    return 'Meu nome é ' + pessoa.nome +' ' + pessoa.sobrenome + ' '+ 'tenho ' + pessoa.idade + 'anos'
+}
+
+var frase = dadosCompletos(pessoa)
+console.log(frase)
