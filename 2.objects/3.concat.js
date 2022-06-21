@@ -5,17 +5,17 @@
        terceiro precisa ser {nome: "meu nome", sobrenome: "meu sobrenome", idade: 15}
 */
 
-var primeiro = {
+const primeiro = {
     nome: 'Louise',
     sobrenome: 'Alves'
 }
 
-var segundo = {
+const segundo = {
     idade: 18,
     altura: 1.63
 }
 
-var terceiro = {...primeiro, ...segundo} //spread operator
+const terceiro = {...primeiro, ...segundo} //spread operator
 // var terceiro = Object.assign({}, primeiro,segundo) Metodo Object Assign
 
 console.log(terceiro)
