@@ -4,11 +4,9 @@
    Ex: primeiro = [1, 2, 3, 4] segundo = [2, 3, 4, 5, 6, 7], terceiro precisa ser [1, 2, 3, 4, 5, 6, 7]
 */
 
-const frutas = ['Manga','Laranja', 'Pera' ]
-const cores = ['Laranja', 'Azul', 'Verde', ]
-const noRepeat = new Set (frutas.concat(cores))
-
-
+const frutas = ['Manga', 'Laranja', 'Pera']
+const cores = ['Laranja', 'Azul', 'Verde']
+const noRepeat = new Set(frutas.concat(cores))
 
 console.log(...noRepeat)
 
