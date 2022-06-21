@@ -3,6 +3,6 @@
    desse array sem usar nenhuma estrutura de repetição.
 */
 
-var arr = ['Pera','Uva','Abacaxi']
+const arr = ['Pera', 'Uva', 'Abacaxi']
 
 console.log(arr[0], arr[1], arr[2])
