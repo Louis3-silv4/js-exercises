@@ -22,7 +22,7 @@ for (i = 0; i < arr.length; i++) {
 const retorno = arr.map((frutas, indice) => `${indice + 1}: ${frutas}`)
 
 console.log(retorno)
-  
+
 /* ++ é um operador, é a mesma coisa que i++ = i + 1. 
     i= 0 ,então faz o for, i < número do tamanho do arr, 
     e por último faz i++(i + 1) que é o contador do for, e vai até o i ser igual .

@@ -7,9 +7,9 @@
 const primeiroArray = ['Azul', 'Fusca']
 const segundoArray = ['Verde', 'Gol']
 
-const terceiroArray = [ primeiroArray.concat(segundoArray)]
+const terceiroArray = [primeiroArray.concat(segundoArray)]
 
 const quartoArray = [...primeiroArray, ...segundoArray]
 
 console.log(quartoArray, terceiroArray)
-//TODO: Usar spread operator  
+//TODO: Usar spread operator

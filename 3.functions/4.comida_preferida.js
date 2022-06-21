@@ -4,19 +4,24 @@ Você pode assumir que o objeto recebido como parametro possui as chaves nome, s
 Chame essa função e atribua o resultado da execução dela numa variável e, por fim, imprima essa variável.
 */
 
-var pessoa = {
-    nome: 'Louise',
-    sobrenome: 'Alves',
-    idade:18,
-    comidaPreferida:['bifeGratinado','brownie','pipoca']
+const pessoa = {
+  nome: 'Louise',
+  sobrenome: 'Alves',
+  idade: 18,
+  comidaPreferida: ['bifeGratinado', 'brownie', 'pipoca'],
 } 
 
 function dados(pessoa) {
- console.log('Meu nome é ' + pessoa.nome + ' '+ pessoa.sobrenome + ' '+ 'tenho '+ 18 + 'anos'+' '+ 'e minhas comidas preferidas são ' 
-  + pessoa.comidaPreferida)
+ console.log(
+   `Meu nome é ${pessoa.nome} ${
+     pessoa.sobrenome
+   } tenho ${18}anos e minhas comidas preferidas são ${pessoa.comidaPreferida}`
+ )
 }
 
-var frase = dados(pessoa)
+const frase = dados(pessoa)
 
 console.log(frase)
 
+
+//TODO: Tirar duvida 

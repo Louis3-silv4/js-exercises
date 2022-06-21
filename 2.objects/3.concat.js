@@ -6,16 +6,16 @@
 */
 
 const primeiro = {
-    nome: 'Louise',
-    sobrenome: 'Alves'
+  nome: 'Louise',
+  sobrenome: 'Alves',
 }
 
 const segundo = {
-    idade: 18,
-    altura: 1.63
+  idade: 18,
+  altura: 1.63,
 }
 
-const terceiro = {...primeiro, ...segundo} //spread operator
+const terceiro = { ...primeiro, ...segundo } //spread operator
 // var terceiro = Object.assign({}, primeiro,segundo) Metodo Object Assign
 
 console.log(terceiro)
