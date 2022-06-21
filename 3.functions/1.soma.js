@@ -7,6 +7,12 @@ function soma(a,b) {
     return a + b 
 }
 
-var resultado = soma(2,3)
+const resultado = soma(2, 3)
 
 console.log(resultado)
+
+const somar = (a, b) => {
+  return a + b
+}
+
+console.log(somar(5, 5))
