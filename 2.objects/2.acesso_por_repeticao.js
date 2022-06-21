@@ -3,16 +3,16 @@
    utilizando uma estrutura de repetição.
 */
 
-var pessoa = {
-   nome: 'Louise',
-   idade: 18,
-   peso: 55 ,
-   altura: 1.63,
-   cidade: 'Nilopolis'
+const pessoa = {
+  nome: 'Louise',
+  idade: 18,
+  peso: 55,
+  altura: 1.63,
+  cidade: 'Nilopolis',
 }
 
-   for (var i in pessoa) {
-     if (pessoa.hasOwnProperty(i)) {
-      console.log( pessoa[i] + "\n")
-     }
+   for (const i in pessoa) {
+     console.log(pessoa[i] + '\n')
    }
+
+   //TODO: Mudar hasOwnProperty 
